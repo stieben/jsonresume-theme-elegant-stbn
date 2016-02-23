@@ -1,26 +1,27 @@
 {
-  "name": "jsonresume-theme-elegant",
+  "name": "jsonresume-theme-elegant-stbn",
   "version": "1.1.9",
-  "description": "Elegant theme for jsonresume",
+  "description": "Elegant theme fork for JSON Resume",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mudassir0909/jsonresume-theme-elegant.git"
+    "url": "https://github.com/stieben/jsonresume-theme-elegant-stbn.git"
   },
   "keywords": [
     "jsonresume",
     "theme",
-    "elegant"
+    "elegant",
+    "fork"
   ],
-  "author": "Mudassir Ali <mudassir.dev@gmail.com>",
+  "author": "Andrej Stieben <e-mail@stieben.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mudassir0909/jsonresume-theme-elegant/issues"
+    "url": "https://github.com/stieben/jsonresume-theme-elegant-stbn/issues"
   },
-  "homepage": "https://github.com/mudassir0909/jsonresume-theme-elegant",
+  "homepage": "https://github.com/stieben/jsonresume-theme-elegant-stbn",
   "dependencies": {
     "gravatar": "^1.0.6",
     "handlebars": "^2.0.0-alpha.4",

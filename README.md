@@ -1,15 +1,18 @@
-# Elegant Theme [![npm version](https://badge.fury.io/js/jsonresume-theme-elegant.svg)](http://badge.fury.io/js/jsonresume-theme-elegant)
+# JSON Resume theme: Elegant (stbn fork)
 
-Responsive theme for [JsonResume](https://jsonresume.org/) inspired by card layouts.
+Responsive theme for [JSON Resume](https://jsonresume.org/), inspired by card layouts.
 
-[Theme Preview](http://themes.jsonresume.org/elegant)
+[Theme Preview](http://themes.jsonresume.org/theme/elegant)
 
-### Social Profiles
-The profiles are shown in the order in which they are specified in the `basics.profiles` array. By default, only 5 profiles are shown & others are revealed on demand.
+## Social profiles
+
+The profiles are shown in the order in which they are specified in the `basics.profiles` array.
+By default, only 5 profiles are shown & others are revealed on demand.
 
 ![Profile Section](https://raw.githubusercontent.com/mudassir0909/jsonresume-theme-elegant/master/screenshots/profile.png)
 
-#### Supported Profiles
+### Supported profiles
+
 * angellist
 * behance
 * bitbucket
@@ -38,32 +41,41 @@ The profiles are shown in the order in which they are specified in the `basics.p
 * vimeo
 * youtube
 
-### Credits
-* Thank you [contributors](https://github.com/mudassir0909/jsonresume-theme-elegant/graphs/contributors) for your pull requests
-* Floating Menu: inspired by [Smart Fixed Navigation](http://codyhouse.co/demo/smart-fixed-navigation/index.html)
+## Credits
 
-### Contributing
+* Original theme by [Mudassir](https://github.com/mudassir0909/jsonresume-theme-elegant).
+* Thanks to all the [contributors](https://github.com/stieben/jsonresume-theme-elegant-stbn/graphs/contributors)!
+* Floating menu inspired by [Smart Fixed Navigation](http://codyhouse.co/demo/smart-fixed-navigation/index.html).
+
+## Contributing
+
 ```
-$ git clone https://github.com/mudassir0909/jsonresume-theme-elegant.git
-$ cd jsonresume-theme-elegant
+$ git clone https://github.com/stieben/jsonresume-theme-elegant-stbn.git
+$ cd jsonresume-theme-elegant-stbn
 $ npm install
-$ grunt watch // watches for less file changes
-$ grunt exec:run_server // Do this in a new terminal tab to run node server
+$ grunt watch // watches for Less file changes
+$ grunt exec:run_server // do this in a new terminal tab to run node server
 ```
 
 Visit [http://localhost:8888](http://localhost:8888) to see the theme in action.
 
-##### Testing JSON changes
-You can test your changes by updating `resume.json` file inside `node_modules/resume-schema/` folder. You might want to rerun `grunt exec:run_server` whenever you make any changes to `resume.json`
+### Testing JSON changes
 
-##### Updating Styles
-All the LESS files are organized under the folder `assets/less/`. Please go through the comments inside `theme.less` to find out which file to put your LESS changes. Grunt compiles `assets/less/theme.less` to `assets/css/theme.css` which is used eventually in the theme.
+You can test your changes by updating the `resume.json` file inside the `node_modules/resume-schema/` folder.
+You might want to rerun `grunt exec:run_server` whenever you make any changes to `resume.json`.
 
-**_Please Do not make any changes inside `assets/css/theme.css`_**
+### Updating styles
 
-##### Updating Javascript
-All the javascript changes go into `index.js` which is responsible for rendering the theme.
+All the Less files are organized under the folder `assets/less/`.
+Please go through the comments inside `theme.less` to find out into which file to put your Less changes.
+Grunt compiles `assets/less/theme.less` to `assets/css/theme.css` which is used eventually in the theme.
 
-### Roadmap
+**Please do not make any changes inside of `assets/css/theme.css`** – they will be overridden.
 
-[https://github.com/mudassir0909/jsonresume-theme-elegant/labels/enhancement](https://github.com/mudassir0909/jsonresume-theme-elegant/labels/enhancement)
+### Updating JavaScript
+
+All the JavaScript changes go into `index.js` which is responsible for rendering the theme.
+
+## Roadmap
+
+[See upstream](https://github.com/mudassir0909/jsonresume-theme-elegant/labels/enhancement).
